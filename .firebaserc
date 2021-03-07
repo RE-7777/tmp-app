@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "tmp-app-764a6": {
+      "hosting": {
+        "tmp-app": [
+          "tmp-app-764a6"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "tmp-app": "tmp-app-764a6"
+  }
+}

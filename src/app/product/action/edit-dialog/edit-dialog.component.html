@@ -1,0 +1,16 @@
+<h1 mat-dialog-title>商品追加</h1>
+<div mat-dialog-content>
+  <p>商品と価格を入力してください</p>
+  <mat-form-field>
+    <mat-label>商品名</mat-label>
+    <input matInput >
+  </mat-form-field>
+  <mat-form-field>
+    <mat-label>価格</mat-label>
+    <input matInput >
+  </mat-form-field>
+</div>
+<div mat-dialog-actions>
+  <button mat-button (click)="onNoClick()">キャンセル</button>
+  <button mat-button cdkFocusInitial (click)="addProduct()">Ok</button>
+</div>

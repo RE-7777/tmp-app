@@ -1,0 +1,23 @@
+[
+    {"ticker": "KLAC", "name":"KLA", "amount":150, "price": 100, "exchangeRate": 104.5, "exchangeSpread": 0.2},
+    {"ticker": "KEYS", "name":"キーサイトテクノロジーズ", "amount":100, "price": 20.1, "exchangeRate": 101.5, "exchangeSpread": 0.2},
+    {"ticker": "AAPL", "name":"アップル", "amount":1500, "price": 400.5, "exchangeRate": 101.5, "exchangeSpread": 0.2},
+    {"ticker": "AMAT", "name":"アプライド・マテリアルズ", "amount":180, "price": 30.5, "exchangeRate": 101.5, "exchangeSpread": 0.2},
+    {"ticker": "AMD", "name":"アドバンストマイクロデバイセズ", "amount":280, "price": 200.99, "exchangeRate": 101.5, "exchangeSpread": 0.2},
+    {"ticker": "ZM", "name":"ズームビデオコミュニケーションズ", "amount":150, "price": 500.8, "exchangeRate": 101.5, "exchangeSpread": 0.2},
+    {"ticker": "ACN", "name":"アクセンチュア", "amount":400, "price": 49.5, "exchangeRate": 101.5, "exchangeSpread": 0.2},
+    {"ticker": "ADBE", "name":"アドビ", "amount":800, "price": 40.6, "exchangeRate": 101.5, "exchangeSpread": 0.2},
+    {"ticker": "ADSK", "name":"オートデスク", "amount":15, "price": 69, "exchangeRate": 101.5, "exchangeSpread": 0.2},
+    {"ticker": "AMZN", "name":"アマゾンドットコム", "amount":100, "price": 40.8, "exchangeRate": 101.5, "exchangeSpread": 0.2},
+    {"ticker": "FB", "name":"フェイスブック", "amount":3000, "price": 99, "exchangeRate": 101.5, "exchangeSpread": 0.2},
+    {"ticker": "MSFT", "name":"マイクロソフト", "amount":190, "price": 50.9, "exchangeRate": 101.5, "exchangeSpread": 0.2},
+    {"ticker": "CRM", "name":"セールスフォース　ドット　コム", "amount":160, "price": 36, "exchangeRate": 101.5, "exchangeSpread": 0.2},
+    {"ticker": "GOOGL", "name":"アルファベット", "amount":1500, "price": 99.4, "exchangeRate": 101.5, "exchangeSpread": 0.2},
+    {"ticker": "SPLK", "name":"スプランク", "amount":100, "price": 101.8, "exchangeRate": 101.5, "exchangeSpread": 0.2},
+    {"ticker": "TWTR", "name":"ツイッター", "amount":190, "price": 60, "exchangeRate": 101.5, "exchangeSpread": 0.2},
+    {"ticker": "INTC", "name":"インテル", "amount":160, "price": 20.5, "exchangeRate": 101.5, "exchangeSpread": 0.2},
+    {"ticker": "IBM", "name":"ＩＢＭ", "amount":1500, "price": 48, "exchangeRate": 101.5, "exchangeSpread": 0.2},
+    {"ticker": "VMW", "name":"ＶＭウェア", "amount":250, "price": 50.6, "exchangeRate": 101.5, "exchangeSpread": 0.2},
+    {"ticker": "WDAY", "name":"ワークデイ", "amount":300, "price": 40, "exchangeRate": 101.5, "exchangeSpread": 0.2}
+    
+]
