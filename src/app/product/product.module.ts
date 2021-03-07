@@ -17,7 +17,10 @@ import { FormsModule }   from '@angular/forms';
 //Ag-grid
 import { AgGridModule } from 'ag-grid-angular';
 
-// import { ProductService } from './shared/product.service';
+
+import { AngularFireModule } from '@angular/fire';
+import { environment } from '../../environments/environment';
+import { AngularFireDatabaseModule } from '@angular/fire/database';
 
 
 //product.component.htmlのrouter-outletで読み取るパス
@@ -50,6 +53,10 @@ const routes: Routes = [
     FormsModule,
     //Ag-grid
     AgGridModule.withComponents([]),
+    //Firebase
+    AngularFireModule.initializeApp(environment.firebase),
+    AngularFireModule,
+    AngularFireDatabaseModule,
   ],
   providers: [
     // ProductService

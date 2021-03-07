@@ -28,6 +28,7 @@ export class EditDialogComponent implements OnInit {
 
   addProduct() :void { 
     console.log('start addProduct()')
+    
     this.productsRef.push(new Product(
       {ticker: 'SBUX', name:'スターバックス', amount:180, price: 88.6, exchangeRate: 104.5, exchangeSpread: 0.2},
       ));   

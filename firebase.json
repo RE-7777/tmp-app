@@ -2,7 +2,7 @@
   "hosting": [
     {
       "target": "tmp-app",
-      "public": "dist/tmp-app",
+      "public": "dist/tmp-app/browser",
       "ignore": [
         "**/.*"
       ],

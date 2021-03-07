@@ -9,9 +9,9 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ProductModule } from './product/product.module';
 import { NavbarComponent } from './common/navbar/navbar.component';
 
-import { AngularFireModule } from '@angular/fire';
+
 import { environment } from '../environments/environment';
-import { AngularFireDatabaseModule } from '@angular/fire/database';
+import { ServiceWorkerModule } from '@angular/service-worker';
 
 
 @NgModule({
@@ -22,14 +22,12 @@ import { AngularFireDatabaseModule } from '@angular/fire/database';
     
   ],
   imports: [
-    BrowserModule,
+    BrowserModule.withServerTransition({ appId: 'serverApp' }),
     AppRoutingModule,
     BrowserAnimationsModule,
     RouterModule,
     ProductModule,
-    AngularFireModule.initializeApp(environment.firebase),
-    AngularFireModule,
-    AngularFireDatabaseModule
+    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
   ],
   providers: [],
   bootstrap: [AppComponent]
